@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Your Quiz Result</h2>
+  <p id="scoreDisplay"></p>
+
+  <script>
+    const score = localStorage.getItem("quizScore");
+    document.getElementById("scoreDisplay").innerText = `You scored ${score} out of 2!`;
+  </script>
+</body>
+</html>

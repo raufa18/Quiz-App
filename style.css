@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.question {
+  margin-bottom: 15px;
+}
