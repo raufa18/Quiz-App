@@ -1,0 +1,25 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container, .quiz-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input[type="password"], button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.animation {
+  width: 150px;
+  margin-bottom: 20px;
+}
